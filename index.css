@@ -136,6 +136,7 @@ img {
   border-radius: 8px;
   min-width: 320px;
   padding: 16px 10px;
+  height: 100px;
 }
 
 .upper-part {
@@ -143,7 +144,7 @@ img {
   display: flex;
   align-items: center;
   margin-bottom: 12px;
-  height: 36px;
+  height: 75px;
   overflow: hidden;
 }
 
@@ -210,11 +211,11 @@ img {
 }
 
 #item-2:checked ~ .player #test  {
-  transform: translateY(-40px);
+  transform: translateY(-70px);
 }
 
 #item-3:checked ~ .player #test  {
-  transform: translateY(-80px);
+  transform: translateY(-140px);
 }
 
 .gradient-text {
